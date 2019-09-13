@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mujo-code/style/issues"
   },
-  "homepage": "https://github.com/mujo-code/style#readme"
+  "homepage": "https://github.com/mujo-code/style#readme",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
 }
