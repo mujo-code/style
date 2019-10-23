@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["airbnb-base", "plugin:react/recommended", "react-app"],
+  extends: ["airbnb-base", "plugin:react/recommended", "react-app", "prettier"],
   plugins: ["eslint-plugin-import-order-alphabetical", "prettier"],
   settings: {
     react: {
@@ -7,7 +7,7 @@ module.exports = {
     }
   },
   rules: {
-    "object-curly-newline": ["error", { multiline: true }],
+    "object-curly-newline": 0,
     "function-paren-newline": 0,
     "max-len": ["error", { code: 80, tabWidth: 2 }],
     "linebreak-style": ["error", "unix"],
@@ -33,7 +33,6 @@ module.exports = {
     "no-console": "off",
     "import/prefer-default-export": 0,
     "react/prop-types": 0,
-    "import-order-alphabetical/order": "error",
     "prettier/prettier": "error",
     "import/no-unresolved": ["error", { caseSensitive: false }],
     semi: ["error", "never"]
