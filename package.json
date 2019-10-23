@@ -1,24 +1,6 @@
 {
-  "name": "@mujo/style",
-  "version": "1.0.0",
-  "description": "Style configuration for Mujo repos.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mujo-code/style.git"
-  },
-  "keywords": [
-    "style-guide"
-  ],
-  "author": "Jacob Lowe",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mujo-code/style/issues"
-  },
-  "homepage": "https://github.com/mujo-code/style#readme",
+  "name": "root",
+  "private": true,
   "devDependencies": {
     "lerna": "^3.16.4"
   }
